@@ -1,0 +1,38 @@
+		*{
+ margin : 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+body {
+    margin: 20px;
+    background-color: white;
+}
+
+td {
+	width: 500px;
+	border-bottom: 1px dotted; black;
+	line-height: 1.7;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+	display: block;
+}
+
+a:hover {
+	background-color: #EEF6B6;
+}
+
+td {
+	color: gray;
+}
+
+thead tr {
+	padding-bottom: 30px;
+}
+
+@media screen and (max-width: 704px) {
+
+}
