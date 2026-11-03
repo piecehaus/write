@@ -5,7 +5,7 @@
 }
 
 body {
-	margin: 30px;
+	margin: 10px;
     background-color: white;
     font-family: monospace;
 	font-size: 15px;
@@ -38,15 +38,25 @@ a:hover {
 	color: deepskyblue;
 }
 
+ul {
+	list-style: none;
+	font-size: 1rem;
+}
+
+p::selection {
+	background-color: #EEF6B6;
+}
+
 
 @media screen and (max-width: 704px) {
 
 .text {
 	margin-top: 50px;
+	margin-bottom: 50px;
 	font-family: serif;
 	font-size: 16px;
 	line-height: 1.5;
-	margin-right: 50px;
+	margin-right: 70px;
 	margin-left: 50px;
 }
 

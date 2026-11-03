@@ -34,6 +34,16 @@ th {
 	padding-bottom: 10px;
 }
 
+/* 1. 움직임 정의: 보였다가 → 사라졌다가 */
+@keyframes blink {
+	0%, 100%   { opacity: 1; }    /* 처음: 보임 */
+	50%  { opacity: 0; }    /* 중간: 사라짐 */
+}
+
+/* 2. 글자에 그 움직임 적용 */
+.blink {
+	animation: blink 0.8s steps(1) infinite;
+}
 
 @media screen and (max-width: 704px) {
 

@@ -13,6 +13,7 @@ body {
 
 .text {
 	margin-top: 50px;
+	margin-bottom: 50px;
 	font-family: serif;
 	font-size: 16px;
 	line-height: 1.5;
@@ -44,7 +45,7 @@ ul {
 }
 
 p::selection {
-	background-color: black;
+	background-color: #EEF6B6;
 }
 
 

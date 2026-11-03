@@ -6,7 +6,7 @@
 
 body {
 	margin: 10px;
-    background-color: honeydew;
+    background-color: white;
     font-family: monospace;
 	font-size: 15px;
 }
@@ -43,18 +43,10 @@ ul {
 	font-size: 1rem;
 }
 
-.list-wrapper {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 50px 10px;
+p::selection {
+	background-color: black;
 }
 
-.list-group {
-  list-style: none;   /* 기본 점(•) 없애고 싶으면 */
-  padding: 0;
-  margin: 0;
-  flex: 1 1 250px;             /* 3개 그룹이 균등한 너비를 가지도록 */
-}
 
 @media screen and (max-width: 704px) {
 
@@ -63,7 +55,7 @@ ul {
 	font-family: serif;
 	font-size: 16px;
 	line-height: 1.5;
-	margin-right: 50px;
+	margin-right: 70px;
 	margin-left: 50px;
 }
 
