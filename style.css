@@ -34,6 +34,10 @@ th {
 	padding-bottom: 10px;
 }
 
+::selection {
+	background-color: #EEF6B6;
+}
+
 .if {
 	margin-bottom: 5px;
 	display: inline-block;
